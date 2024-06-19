@@ -10,6 +10,9 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            Calculator calculator = new Calculator();
+
+            Console.WriteLine($"3 + 2 = {calculator.Summ(3, 2)}");
         }
     }
 }
