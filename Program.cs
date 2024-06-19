@@ -25,6 +25,9 @@ namespace Calculator
             Console.WriteLine($"0 - 0 = {calculator.Sub(0, 0)}");
             Console.WriteLine($"-5 - 5 = {calculator.Sub(-5, 5)}");
             Console.WriteLine();
+
+            Console.WriteLine("Div function:");
+            Console.WriteLine($"3 / 2 = {calculator.Div(3, 2)}");
         }
     }
 }
