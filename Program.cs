@@ -21,6 +21,10 @@ namespace Calculator
 
             Console.WriteLine("Sub function:");
             Console.WriteLine($"3 - 2 = {calculator.Sub(3, 2)}");
+            Console.WriteLine($"-2 - 4 = {calculator.Sub(-2, 4)}");
+            Console.WriteLine($"0 - 0 = {calculator.Sub(0, 0)}");
+            Console.WriteLine($"-5 - 5 = {calculator.Sub(-5, 5)}");
+            Console.WriteLine();
         }
     }
 }
