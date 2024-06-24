@@ -31,7 +31,8 @@ namespace Calculator
             Console.WriteLine($"-2 * 4 = {calculator.Mul(-2, 4)}");
             Console.WriteLine($"0 * 0 = {calculator.Mul(0, 0)}");
             Console.WriteLine($"-5 * (-5) = {calculator.Mul(-5, -5)}");
-          
+            Console.WriteLine();
+
             Console.WriteLine("Div function:");
             Console.WriteLine($"3 / 2 = {calculator.Div(3, 2)}");
             Console.WriteLine($"-2 / 4 = {calculator.Div(-2, 4)}");
